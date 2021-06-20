@@ -12,5 +12,5 @@
     background-color: darkslategrey;
 }
 .description{
-
+   word-wrap: break-word;
 }
