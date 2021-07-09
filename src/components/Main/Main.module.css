@@ -1,29 +1,58 @@
 .mainBlock {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #212529
 }
 
 .text {
-    width: 300px;
-    background-color: #e7e7ee;
+    max-width: 350px;
+    color: rgba(255, 255, 255, .5);
 }
-
-.photo {
-    background-color: bisque;
-    width: 400px;
+.text h1{
+    color: #fff
 }
 
 .photo img {
-    height: 100px;
+    width: 400px;
+    height: 400px;
 }
 
 .container {
     border: 1px solid black;
     flex-wrap: wrap;
-    height: 100%;
-    width: 80%;
+    min-height: 600px;
+    width: 64%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen  and (max-width: 1406px) {
+    .container {
+        justify-content: center;
+    }
+
+    .text {
+        max-width: 350px;
+    }
+
+    .photo img {
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media screen  and (max-width: 937px) {
+    .text {
+        max-width: 300px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .photo img {
+        width: 300px;
+        height: 300px;
+    }
 }
