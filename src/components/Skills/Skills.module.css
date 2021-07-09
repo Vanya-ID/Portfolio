@@ -1,6 +1,7 @@
 .skillsBlock {
-    min-height: 100vh;
     background-color: #343a40;
+    padding-top: 15px;
+    padding-bottom:  15px;
 }
 
 .container {
