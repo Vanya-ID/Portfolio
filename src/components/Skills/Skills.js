@@ -16,6 +16,12 @@ function Skills() {
                     <Skill title={'REACT'}
                            description={'Hello REACT'}
                     />
+                    <Skill title={'Jest'}
+                           description={'Hello REACT'}
+                    />
+                    <Skill title={'REACT'}
+                           description={'Hello REACT'}
+                    />
                 </div>
             </div>
         </div>

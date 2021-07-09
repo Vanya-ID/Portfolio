@@ -23,3 +23,8 @@
 .title{
     background-color: #917375;
 }
+@media screen and (max-width: 1563px){
+    .skills{
+        justify-content: center;
+    }
+}

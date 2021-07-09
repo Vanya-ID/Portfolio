@@ -1,5 +1,5 @@
 .contactBlock{
-    height: 100vh;
+    min-height: 400px;
     background-color: #76a85a;
 }
 .container{

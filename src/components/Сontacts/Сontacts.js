@@ -1,5 +1,4 @@
 import c from './Сontacts.module.css'
-
 function Contacts() {
     return (
         <div className={c.contactBlock}>
