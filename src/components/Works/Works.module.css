@@ -1,20 +1,28 @@
-.worksBlock{
+.worksBlock {
     min-height: 100vh;
     background-color: darkslategrey;
     color: white;
 }
-.container{
+
+.container {
     border: 1px solid black;
-    width:  80%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.works{
+
+.works {
     display: flex;
     justify-content: space-between;
     border: 1px solid;
-    width:  80%;
-flex-wrap: wrap;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1415px) {
+    .works {
+        justify-content: center;
+    }
 }
