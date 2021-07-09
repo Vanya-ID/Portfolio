@@ -5,7 +5,9 @@ function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={s.container}>
-                <h2 className={s.title}>My Skills</h2>
+                <h2 className={s.title}>
+                    My Skills
+                </h2>
                 <div className={s.skills}>
                     <Skill title={'React'}
                            img={'https://img.icons8.com/wired/100/26e07f/react.png'}

@@ -1,17 +1,20 @@
-.skill{
+.skill {
     width: 300px;
     margin-top: 10px;
 }
-.icon img{
+
+.icon img {
     width: 70px;
     height: 70px;
     background-color: #212529
 }
-.description{
-   word-wrap: break-word;
-    color: rgba(255,255,255,.5);
+
+.description {
+    word-wrap: break-word;
+    color: rgba(255, 255, 255, .5);
 }
-.skill h3{
+
+.skill h3 {
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 500;

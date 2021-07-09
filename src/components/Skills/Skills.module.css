@@ -1,7 +1,7 @@
 .skillsBlock {
     background-color: #343a40;
     padding-top: 15px;
-    padding-bottom:  15px;
+    padding-bottom: 15px;
 }
 
 .container {
@@ -16,7 +16,7 @@
 
 .skills {
     padding-top: 10px;
-    padding-bottom:  10px;
+    padding-bottom: 10px;
     border: 1px solid #eadfe0;
     width: 80%;
     display: flex;
@@ -31,13 +31,14 @@
     color: #fff;
     line-height: 1.5
 }
-.title:after{
+
+.title:after {
     content: '';
     display: block;
     width: 80%;
     height: 5px;
     margin: 0 auto;
-background-color: #20c997;
+    background-color: #20c997;
 }
 
 @media screen and (max-width: 1406px) {
