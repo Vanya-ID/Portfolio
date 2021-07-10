@@ -1,4 +1,5 @@
 @import "/src/styles/scss/variables";
+@import "/src/styles/scss/mixins";
 
 .worksBlock {
   min-height: 300px;
@@ -6,11 +7,7 @@
   color: $primaryColor;
 
   .container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    @include container(flex-start, 80%);
 
     .works {
       display: flex;

@@ -1,4 +1,5 @@
 @import "/src/styles/scss/variables";
+@import "/src/styles/scss/mixins";
 
 .contactBlock {
   min-height: 400px;
@@ -19,14 +20,9 @@
       border: 1px solid crimson;
 
       .contacts {
-        display: flex;
-        height: 100%;
-        width: 50%;
+        @include container(space-evenly, 50%);
         min-width: 200px;
-        flex-direction: column;
-        align-items: center;
         border: 1px solid #d5c6d3;
-        justify-content: space-evenly;
 
         input, textarea {
           width: 95%;

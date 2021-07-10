@@ -1,0 +1,11 @@
+@import "/src/styles/scss/variables";
+
+@mixin container($jC, $w){
+  height: 100%;
+  width: $w;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: $jC;
+}

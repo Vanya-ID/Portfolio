@@ -1,18 +1,16 @@
 @import "/src/styles/scss/variables";
+@import "/src/styles/scss/mixins";
 
 .mainBlock {
   min-height: 100vh;
   background-color: $bgSecondColor;
 
   .container {
+    @include container(space-between, 64%);
     border: 1px solid black;
     flex-wrap: wrap;
     min-height: 600px;
-    width: 64%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
     @media screen and (max-width: 1406px) {
       justify-content: center;
     }

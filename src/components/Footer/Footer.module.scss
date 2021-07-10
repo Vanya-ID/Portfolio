@@ -1,18 +1,13 @@
 @import "/src/styles/scss/variables";
+@import "/src/styles/scss/mixins";
 
 .footerBlock {
   background-color: $bgSecondColor;
   height: 200px;
 
   .container {
-    width: 80%;
-    height: 100%;
     border: 1px solid;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
+    @include container(space-evenly, 80%);
 
     .logos {
       width: 250px;

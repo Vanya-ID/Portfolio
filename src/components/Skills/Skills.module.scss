@@ -1,4 +1,5 @@
 @import "/src/styles/scss/variables";
+@import "/src/styles/scss/mixins";
 
 .skillsBlock {
   background-color: $bgFirstColor;
@@ -6,13 +7,8 @@
   padding-bottom: 15px;
 
   .container {
+    @include container(flex-start, 80%);
     border: 1px solid black;
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 
     .title {
       font-weight: 600;
