@@ -6,9 +6,20 @@ function Skill(props) {
             <div className={s.icon}>
                 <img src={props.img} alt=""/>
             </div>
-            <h3>
-                {props.title}
-            </h3>
+            <div className={s.title}>
+                <h4>
+                    {props.title}
+                </h4>
+                <span>
+                    {props.progress}
+                </span>
+            </div>
+            <div className={s.progressDark}>
+                <div style={{
+                    width: props.progress
+                }} className={s.progress}>
+                </div>
+            </div>
             <p className={s.description}>
                 {props.description}
             </p>

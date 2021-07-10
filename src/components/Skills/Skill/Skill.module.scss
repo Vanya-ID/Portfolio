@@ -23,4 +23,29 @@
     font-weight: 500;
     color: $primaryColor;
   }
+
+  .title{
+    display: flex;
+    color: $primaryColor;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 4px;
+    padding-top:  4px;
+    h4{
+      margin: 0;
+    }
+  }
+
+  .progressDark{
+    height: 10px;
+    margin-top: 5px;
+    background-color: #111418;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    .progress{
+      background-color: #20c997;
+      padding: 2px;
+    }
+  }
 }
