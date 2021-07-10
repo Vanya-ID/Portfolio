@@ -6,37 +6,69 @@
   background-color: $bgFirstColor;
 
   .container {
-    border: 1px solid black;
     height: 100%;
     width: 80%;
     margin: 0 auto;
 
     .form {
       display: flex;
-      height: 350px;
+      min-height: 350px;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      border: 1px solid crimson;
-
       .title {
         @include title
       }
-
       .contacts {
-        @include container(space-evenly, 50%);
-        min-width: 200px;
-        border: 1px solid #d5c6d3;
+        min-width: 300px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
 
-        input, textarea {
-          width: 95%;
+        input, textarea{
+          border-color: #232a31;
+          background: #232a31;
+          color: $primaryColor;
+          margin: 5px;
           font-size: 17px;
+          padding: 5px;
+          &:focus{
+            border-color: #136dcc;
+
+          }
+        }
+
+        .info {
+          display: flex;
+          input {
+            width: 50%;
+          }
         }
 
         textarea {
-          height: 60%;
+          width: 97%;
         }
 
+        .btn {
+          text-align: center;
+          margin: 0 auto;
+          background-color: #20c997;
+          border-color: #20c997;
+          cursor: pointer;
+          padding: 6px 40px;
+          font-weight: 500;
+          border-width: 2px;
+          transition: all 0.5s ease;
+          border-radius: 20px;
+          color: $primaryColor;
+          line-height: 1.5;
+          font-size: 15px;
+
+          &:hover {
+            background-color: #2b9f78;
+            border-color: #2b9f78;
+          }
+        }
       }
     }
   }
