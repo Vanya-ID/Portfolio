@@ -1,22 +1,24 @@
 .skill {
-    width: 300px;
-    margin-top: 10px;
-}
+  width: 300px;
+  margin-top: 10px;
 
-.icon img {
-    width: 70px;
-    height: 70px;
-    background-color: #212529
-}
+  .icon {
+    img {
+      width: 70px;
+      height: 70px;
+      background-color: #212529
+    }
+  }
 
-.description {
+  .description {
     word-wrap: break-word;
     color: rgba(255, 255, 255, .5);
-}
+  }
 
-.skill h3 {
+  h3 {
     font-size: 22px;
     margin-bottom: 10px;
     font-weight: 500;
     color: white;
+  }
 }
