@@ -1,72 +1,71 @@
 .projectContainer {
-    left: 0;
-    top: 0;
-}
+  left: 0;
+  top: 0;
 
-.project {
-    position: relative;
-    border-radius: 15px;
-}
-
-.imgParent{
-    position: relative;
-    overflow: hidden;
-    border-radius: 15px;
-}
-
-.img{
-    transition: all 0.3s ease-in-out;
-    display: block!important;
-    width: 300px;
-    height: 150px;
-    vertical-align: inherit;
-}
-.overlay{
-    text-align: center;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.7);
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
-
-.overlay a, a:focus {
-    color: #20c997;
-    text-decoration: none;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-
-.overlay a::after{
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    content: "";
-}
-
-.name{
-    width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-div{
+  div {
     display: block;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
+  }
+
+  .project {
+    position: relative;
+    border-radius: 15px;
+
+    .imgParent {
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+
+      .img {
+        transition: all 0.3s ease-in-out;
+        display: block !important;
+        width: 300px;
+        height: 150px;
+        vertical-align: inherit;
+      }
+
+      .overlay {
+        text-align: center;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
+        a:focus {
+          color: #20c997;
+          text-decoration: none;
+          -webkit-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+
+          &::after {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+            content: "";
+          }
+        }
+
+        .name {
+          width: 100%;
+          margin-top: auto;
+          margin-bottom: auto;
+        }
+      }
+    }
+  }
 }
 
 ::selection {
-    background: #20c997;
-    color: #fff;
-    text-shadow: none;
+  background: #20c997;
+  color: #fff;
+  text-shadow: none;
 }

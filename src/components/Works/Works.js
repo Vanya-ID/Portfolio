@@ -1,7 +1,8 @@
 import w from './Works.module.scss'
 import Project from "./Project/Project";
 import todo from '../../utils/Works/15f9c360a4e19af41dff49564e81f00e.png'
-import social from '../../utils/Works/Social-networks-are-a-reality-that-every-company-must-know-how-to-manage-in-a-very-personalized-way.jpg'
+import social
+    from '../../utils/Works/Social-networks-are-a-reality-that-every-company-must-know-how-to-manage-in-a-very-personalized-way.jpg'
 import counter from '../../utils/Works/315px-Schoty_abacus_nper.svg.png'
 
 function Works() {
