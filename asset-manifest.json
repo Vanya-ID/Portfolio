@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1cf012cb.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ddd5797d.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ddd5797d.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.68f4d145.chunk.css",
+    "main.js": "/Portfolio/static/js/main.a0588814.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.a0588814.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.d97c88b4.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d97c88b4.js.map",
-    "static/js/2.1706b25a.chunk.js": "/Portfolio/static/js/2.1706b25a.chunk.js",
-    "static/js/2.1706b25a.chunk.js.map": "/Portfolio/static/js/2.1706b25a.chunk.js.map",
+    "static/js/2.31483bd5.chunk.js": "/Portfolio/static/js/2.31483bd5.chunk.js",
+    "static/js/2.31483bd5.chunk.js.map": "/Portfolio/static/js/2.31483bd5.chunk.js.map",
     "static/js/3.ac8b6623.chunk.js": "/Portfolio/static/js/3.ac8b6623.chunk.js",
     "static/js/3.ac8b6623.chunk.js.map": "/Portfolio/static/js/3.ac8b6623.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.1cf012cb.chunk.css.map": "/Portfolio/static/css/main.1cf012cb.chunk.css.map",
-    "static/js/2.1706b25a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.1706b25a.chunk.js.LICENSE.txt",
+    "static/css/main.68f4d145.chunk.css.map": "/Portfolio/static/css/main.68f4d145.chunk.css.map",
+    "static/js/2.31483bd5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.31483bd5.chunk.js.LICENSE.txt",
     "static/media/15f9c360a4e19af41dff49564e81f00e.54232b17.png": "/Portfolio/static/media/15f9c360a4e19af41dff49564e81f00e.54232b17.png",
     "static/media/315px-Schoty_abacus_nper.svg.5b758620.png": "/Portfolio/static/media/315px-Schoty_abacus_nper.svg.5b758620.png",
     "static/media/Social-networks-are-a-reality-that-every-company-must-know-how-to-manage-in-a-very-personalized-way.4906a4e5.jpg": "/Portfolio/static/media/Social-networks-are-a-reality-that-every-company-must-know-how-to-manage-in-a-very-personalized-way.4906a4e5.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d97c88b4.js",
-    "static/js/2.1706b25a.chunk.js",
-    "static/css/main.1cf012cb.chunk.css",
-    "static/js/main.ddd5797d.chunk.js"
+    "static/js/2.31483bd5.chunk.js",
+    "static/css/main.68f4d145.chunk.css",
+    "static/js/main.a0588814.chunk.js"
   ]
 }
