@@ -13,14 +13,11 @@ function Contacts() {
                             <input type="text" placeholder={'Name'}/>
                             <input type="email" placeholder={'Email'}/>
                         </div>
-                        <div>
                             <textarea name="" id="" cols="30" rows="10"
                                       placeholder={'Tell me more about your needs...'}/>
-                        </div>
-                        <button className={c.btn}>
-                            Send Message
-                        </button>
-
+                            <button className={c.btn}>
+                                Send Message
+                            </button>
                     </div>
                 </form>
             </div>

@@ -16,42 +16,46 @@
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
+
       .title {
         @include title
       }
+
       .contacts {
-        min-width: 300px;
+        min-width: 350px;
         width: 60%;
         display: flex;
         flex-direction: column;
 
-        input, textarea{
+        input, textarea {
           border-color: #232a31;
           background: #232a31;
           color: $primaryColor;
-          margin: 5px;
+          margin-top: 5px;
           font-size: 17px;
           padding: 5px;
-          &:focus{
-            border-color: #136dcc;
 
+          &:focus {
+            border-color: #136dcc;
           }
         }
 
         .info {
           display: flex;
+          min-width: 300px;
+
           input {
             width: 50%;
           }
         }
 
         textarea {
-          width: 97%;
+          min-width: 300px;
         }
 
         .btn {
           text-align: center;
-          margin: 0 auto;
+          margin: 11px auto;
           background-color: #20c997;
           border-color: #20c997;
           cursor: pointer;
