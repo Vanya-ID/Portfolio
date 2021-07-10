@@ -3,23 +3,20 @@ import p from './Project.module.scss'
 function Project(props) {
     return (
         <div className={p.projectContainer}>
-            <div className={p.project}>
-                <div className={p.imgParent}>
-                    <img className={p.img} src={props.img} alt=""/>
-                    <div className={p.overlay}>
-                        <a href={''}>
-                        </a>
-                        <div className={p.name}>
-                            <h5>
-                                {props.title}
-                            </h5>
-                            <span>
-                            {props.desc}
-                        </span>
+            <a href="">
+                <div className={p.project}>
+                    <div className={p.imgParent}>
+                        <img className={p.img} src={props.img} alt=""/>
+                        <div className={p.overlay}>
+                            <div className={p.name}>
+                                <h3>
+                                    {props.title}
+                                </h3>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     );
 }

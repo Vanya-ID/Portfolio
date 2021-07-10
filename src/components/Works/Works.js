@@ -14,17 +14,17 @@ function Works() {
                 </h2>
                 <div className={w.works}>
                     <Project
-                        title={'TODO'}
+                        title={'ToDo List'}
                         desc={'bla bla bla'}
                         img={todo}
                     />
                     <Project
-                        title={'SOCIAL NETWORK'}
+                        title={'Social Network'}
                         desc={' some text'}
                         img={social}
                     />
                     <Project
-                        title={'CODEWARS'}
+                        title={'Counter'}
                         desc={'Откуда-то взялись русские'}
                         img={counter}
                     />

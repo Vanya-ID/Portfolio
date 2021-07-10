@@ -1,6 +1,14 @@
+@import "src/styles/scss/variables";
+
 .projectContainer {
   left: 0;
   top: 0;
+
+  a {
+    color: $primaryColor;
+    font-weight: 400;
+    text-decoration: none;
+  }
 
   div {
     display: block;
@@ -15,7 +23,16 @@
       overflow: hidden;
       border-radius: 15px;
 
+      &:hover .img {
+        opacity: 0.3;
+      }
+
+      &:hover .overlay {
+        opacity: 1;
+      }
+
       .img {
+        opacity: 1;
         transition: all 0.3s ease-in-out;
         display: block !important;
         width: 300px;
@@ -24,9 +41,11 @@
       }
 
       .overlay {
+        width: 100%;
         text-align: center;
-        display: -ms-flexbox !important;
         display: flex !important;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         left: 0;
         right: 0;
@@ -40,18 +59,7 @@
         a:focus {
           color: #20c997;
           text-decoration: none;
-          -webkit-transition: all 0.2s ease;
           transition: all 0.2s ease;
-
-          &::after {
-            position: absolute;
-            top: 0;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 1;
-            content: "";
-          }
         }
 
         .name {
@@ -62,10 +70,4 @@
       }
     }
   }
-}
-
-::selection {
-  background: #20c997;
-  color: #fff;
-  text-shadow: none;
 }
