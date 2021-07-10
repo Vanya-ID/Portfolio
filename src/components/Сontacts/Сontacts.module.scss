@@ -1,6 +1,8 @@
+@import "/src/styles/scss/variables";
+
 .contactBlock {
   min-height: 400px;
-  background-color: #343a40;
+  background-color: $bgFirstColor;
 
   .container {
     border: 1px solid black;

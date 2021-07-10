@@ -1,6 +1,8 @@
+@import "/src/styles/scss/variables";
+
 .headerBlock {
   height: 80px;
-  background-color: #343a40;
+  background-color: $bgFirstColor;
   display: flex;
   justify-content: center;
   align-items: center;

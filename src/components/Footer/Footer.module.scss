@@ -1,5 +1,7 @@
+@import "/src/styles/scss/variables";
+
 .footerBlock {
-  background-color: #212529;
+  background-color: $bgSecondColor;
   height: 200px;
 
   .container {

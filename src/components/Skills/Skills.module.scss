@@ -1,5 +1,7 @@
+@import "/src/styles/scss/variables";
+
 .skillsBlock {
-  background-color: #343a40;
+  background-color: $bgFirstColor;
   padding-top: 15px;
   padding-bottom: 15px;
 
@@ -14,7 +16,7 @@
 
     .title {
       font-weight: 600;
-      color: #fff;
+      color: $primaryColor;
       line-height: 1.5;
 
       &:after {

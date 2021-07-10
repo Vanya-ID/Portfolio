@@ -1,6 +1,8 @@
+@import "/src/styles/scss/variables";
+
 .mainBlock {
   min-height: 100vh;
-  background-color: #212529;
+  background-color: $bgSecondColor;
 
   .container {
     border: 1px solid black;
@@ -20,7 +22,7 @@
 
     .text {
       max-width: 350px;
-      color: rgba(255, 255, 255, .5);
+      color: $textColor;
       @media screen and (max-width: 1406px) {
         max-width: 350px;
       }
@@ -29,7 +31,7 @@
       }
 
       h1 {
-        color: #fff
+        color: $primaryColor;
       }
 
     }

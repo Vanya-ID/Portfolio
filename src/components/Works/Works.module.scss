@@ -1,7 +1,9 @@
+@import "/src/styles/scss/variables";
+
 .worksBlock {
   min-height: 300px;
-  background-color: #212529;
-  color: white;
+  background-color: $bgSecondColor;
+  color: $primaryColor;
 
   .container {
     width: 80%;
@@ -23,7 +25,7 @@
 
     .title {
       font-weight: 600;
-      color: #fff;
+      color: $primaryColor;
       line-height: 1.5;
 
       &:after {
