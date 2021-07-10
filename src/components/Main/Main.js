@@ -1,4 +1,4 @@
-import m from './Main.module.css'
+import m from './Main.module.scss'
 import photo from '../../utils/Ava/milye_tyan_na_avatarku_1_06104421.png'
 
 function Main() {

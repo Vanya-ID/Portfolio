@@ -1,4 +1,4 @@
-import s from './Skill.module.css'
+import s from './Skill.module.scss'
 
 function Skill(props) {
     return (

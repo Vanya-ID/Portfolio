@@ -1,4 +1,4 @@
-import p from './Project.module.css'
+import p from './Project.module.scss'
 
 function Project(props) {
     return (

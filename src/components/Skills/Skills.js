@@ -1,4 +1,4 @@
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 import Skill from "./Skill/Skill";
 
 function Skills() {
