@@ -8,16 +8,14 @@
 
   .container {
     @include container(flex-start, 80%);
-    border: 1px solid black;
 
     .title {
-     @include title
+      @include title
     }
 
     .skills {
       padding-top: 10px;
       padding-bottom: 10px;
-      border: 1px solid #eadfe0;
       width: 80%;
       display: flex;
       justify-content: space-between;

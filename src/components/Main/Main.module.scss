@@ -7,7 +7,6 @@
 
   .container {
     @include container(space-between, 64%);
-    border: 1px solid black;
     flex-wrap: wrap;
     min-height: 600px;
     flex-direction: row;

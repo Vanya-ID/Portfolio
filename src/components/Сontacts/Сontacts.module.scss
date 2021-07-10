@@ -43,9 +43,9 @@
         .info {
           display: flex;
           min-width: 300px;
-
+          justify-content: space-between;
           input {
-            width: 50%;
+            width: 47%;
           }
         }
 
