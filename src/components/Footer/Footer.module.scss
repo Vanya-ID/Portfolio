@@ -16,8 +16,13 @@
       display: flex;
       justify-content: space-evenly;
       img {
+        border: 2px solid transparent;
+        border-radius: 15px;
         width: 40px;
         height: 40px;
+        &:hover{
+          border: 2px solid #20c997;
+        }
       }
     }
   span{
