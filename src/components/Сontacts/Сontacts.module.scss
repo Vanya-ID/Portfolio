@@ -19,6 +19,10 @@
       justify-content: space-evenly;
       border: 1px solid crimson;
 
+      .title {
+        @include title
+      }
+
       .contacts {
         @include container(space-evenly, 50%);
         min-width: 200px;

@@ -1,4 +1,5 @@
 import c from './Сontacts.module.scss'
+import s from "../Skills/Skills.module.scss";
 
 function Contacts() {
     return (
@@ -6,7 +7,9 @@ function Contacts() {
             <div className={c.container}>
 
                 <form className={c.form} action="">
-                    <h3>Контакты</h3>
+                    <h2 className={c.title}>
+                       Get in Touch
+                    </h2>
                     <div className={c.contacts}>
                         <input type="text" placeholder={'Телефон'}/>
                         <input type="text" placeholder={'Почта'}/>

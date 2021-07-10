@@ -1,6 +1,6 @@
 @import "/src/styles/scss/variables";
 
-@mixin container($jC, $w){
+@mixin container($jC, $w) {
   height: 100%;
   width: $w;
   margin: 0 auto;
@@ -8,4 +8,18 @@
   align-items: center;
   flex-direction: column;
   justify-content: $jC;
+}
+
+@mixin title() {
+  font-weight: 600;
+  color: $primaryColor;
+  line-height: 1.5;
+  &:after {
+    content: '';
+    display: block;
+    width: 80%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #20c997;
+  }
 }

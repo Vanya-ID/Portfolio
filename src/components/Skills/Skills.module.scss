@@ -11,18 +11,7 @@
     border: 1px solid black;
 
     .title {
-      font-weight: 600;
-      color: $primaryColor;
-      line-height: 1.5;
-
-      &:after {
-        content: '';
-        display: block;
-        width: 80%;
-        height: 5px;
-        margin: 0 auto;
-        background-color: #20c997;
-      }
+     @include title
     }
 
     .skills {
