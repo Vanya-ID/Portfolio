@@ -7,7 +7,7 @@ function Main() {
             <div className={m.container}>
                 <div className={m.text}>
                     <h1>
-                        I'm <span style={{color:'#20c997'}}>Ivan Filipchyck,</span> a Web Developer
+                        I'm <span style={{color: '#20c997'}}>Ivan Filipchyck,</span> a Web Developer
                     </h1>
                     <p>I help you build brand for your business at an affordable price. Thousands of clients have
                         procured exceptional results while working with our dedicated team. when an unknown printer took
