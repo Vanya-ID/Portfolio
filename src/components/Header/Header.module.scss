@@ -1,9 +1,11 @@
 @import "/src/styles/scss/variables";
 
 .headerBlock {
-  height: 80px;
+  height: 60px;
+  width: 100%;
   background-color: $bgFirstColor;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
 }
