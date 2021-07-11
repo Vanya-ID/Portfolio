@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.68f4d145.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a0588814.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a0588814.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.d97c88b4.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.d97c88b4.js.map",
-    "static/js/2.31483bd5.chunk.js": "/Portfolio/static/js/2.31483bd5.chunk.js",
-    "static/js/2.31483bd5.chunk.js.map": "/Portfolio/static/js/2.31483bd5.chunk.js.map",
-    "static/js/3.ac8b6623.chunk.js": "/Portfolio/static/js/3.ac8b6623.chunk.js",
-    "static/js/3.ac8b6623.chunk.js.map": "/Portfolio/static/js/3.ac8b6623.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.7afe47fb.chunk.css",
+    "main.js": "/Portfolio/static/js/main.378d0586.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.378d0586.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.c63b783d.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c63b783d.js.map",
+    "static/js/2.e782211d.chunk.js": "/Portfolio/static/js/2.e782211d.chunk.js",
+    "static/js/2.e782211d.chunk.js.map": "/Portfolio/static/js/2.e782211d.chunk.js.map",
+    "static/js/3.2a0b5531.chunk.js": "/Portfolio/static/js/3.2a0b5531.chunk.js",
+    "static/js/3.2a0b5531.chunk.js.map": "/Portfolio/static/js/3.2a0b5531.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "static/css/main.68f4d145.chunk.css.map": "/Portfolio/static/css/main.68f4d145.chunk.css.map",
-    "static/js/2.31483bd5.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.31483bd5.chunk.js.LICENSE.txt",
+    "static/css/main.7afe47fb.chunk.css.map": "/Portfolio/static/css/main.7afe47fb.chunk.css.map",
+    "static/js/2.e782211d.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.e782211d.chunk.js.LICENSE.txt",
     "static/media/15f9c360a4e19af41dff49564e81f00e.54232b17.png": "/Portfolio/static/media/15f9c360a4e19af41dff49564e81f00e.54232b17.png",
     "static/media/315px-Schoty_abacus_nper.svg.5b758620.png": "/Portfolio/static/media/315px-Schoty_abacus_nper.svg.5b758620.png",
     "static/media/Social-networks-are-a-reality-that-every-company-must-know-how-to-manage-in-a-very-personalized-way.4906a4e5.jpg": "/Portfolio/static/media/Social-networks-are-a-reality-that-every-company-must-know-how-to-manage-in-a-very-personalized-way.4906a4e5.jpg",
-    "static/media/milye_tyan_na_avatarku_1_06104421.c30fc885.png": "/Portfolio/static/media/milye_tyan_na_avatarku_1_06104421.c30fc885.png"
+    "static/media/milye_tyan_na_avatarku_1_06104421.c30fc885.png": "/Portfolio/static/media/milye_tyan_na_avatarku_1_06104421.c30fc885.png",
+    "static/media/preloader-images.526c81b1.gif": "/Portfolio/static/media/preloader-images.526c81b1.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.d97c88b4.js",
-    "static/js/2.31483bd5.chunk.js",
-    "static/css/main.68f4d145.chunk.css",
-    "static/js/main.a0588814.chunk.js"
+    "static/js/runtime-main.c63b783d.js",
+    "static/js/2.e782211d.chunk.js",
+    "static/css/main.7afe47fb.chunk.css",
+    "static/js/main.378d0586.chunk.js"
   ]
 }
