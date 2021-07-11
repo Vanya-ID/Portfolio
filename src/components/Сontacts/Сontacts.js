@@ -1,12 +1,18 @@
 import c from './Сontacts.module.scss'
 import emailjs from 'emailjs-com';
+import preloader from '../../utils/Preloader/preloader-images.gif'
+import {useState} from "react";
 
 function Contacts() {
+    const [isLoading, setLoading] = useState(false)
+
     function sendEmail(e) {
         e.preventDefault();
+        setLoading(true)
         emailjs.sendForm('service_wwmcgib', 'template_4rbhnog', e.target, 'user_ZtKUw8fXBLDokeLxLCKOU')
             .then((result) => {
                 console.log(result.text);
+                setLoading(false)
                 e.target.reset()
             }, (error) => {
                 console.log(error.text);
@@ -27,8 +33,21 @@ function Contacts() {
                         </div>
                         <textarea name="message" id="" cols="30" rows="10"
                                   placeholder={'Tell me more about your needs...'}/>
-                        <input type={"submit"} className={c.btn} value={"Send Message"}>
-                        </input>
+                        <button disabled={isLoading} type={"submit"} className={c.btn}>
+                            {
+                                isLoading ?
+                                    <img
+                                        style={{
+                                            height: '80px',
+                                            position: 'relative',
+                                            top: '-28px'
+                                        }}
+                                        src={preloader} alt=""/>
+                                    :
+                                    'Send Message'
+                            }
+
+                        </button>
                     </div>
                 </form>
             </div>
