@@ -5,6 +5,9 @@ function Nav() {
     return (
         <div className={n.nav}>
             <Link
+                style={{
+                cursor:'pointer'}
+                }
                 activeClass={n.active}
                 spy={true}
                 smooth={true}
@@ -13,6 +16,9 @@ function Nav() {
                 Main
             </Link>
             <Link
+                style={{
+                    cursor:'pointer'}
+                }
                 activeClass={n.active}
                 spy={true}
                 smooth={true}
@@ -22,6 +28,9 @@ function Nav() {
                 Skills
             </Link>
             <Link
+                style={{
+                    cursor:'pointer'}
+                }
                 activeClass={n.active}
                 spy={true}
                 smooth={true}
@@ -31,6 +40,9 @@ function Nav() {
                 Projects
             </Link>
             <Link
+                style={{
+                    cursor:'pointer'}
+                }
                 activeClass={n.active}
                 spy={true}
                 smooth={true}

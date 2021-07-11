@@ -22,14 +22,13 @@ function Contacts() {
                     </h2>
                     <div className={c.contacts}>
                         <div className={c.info}>
-                            <input name="user_name" type="text" placeholder={'Name'}/>
-                            <input name='user_email' type="email" placeholder={'Email'}/>
+                            <input name="to_name" type="text" placeholder={'Name'}/>
+                            <input name='from_name' type="email" placeholder={'Email'}/>
                         </div>
                         <textarea name="message" id="" cols="30" rows="10"
                                   placeholder={'Tell me more about your needs...'}/>
-                        <button type={"submit"} className={c.btn}>
-                            Send Message
-                        </button>
+                        <input type={"submit"} className={c.btn} value={"Send Message"}>
+                        </input>
                     </div>
                 </form>
             </div>

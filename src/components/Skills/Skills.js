@@ -3,7 +3,7 @@ import Skill from "./Skill/Skill";
 
 function Skills() {
     return (
-        <div  className={s.skillsBlock}>
+        <div className={s.skillsBlock}>
             <div id={'skills'} className={s.container}>
                 <h2 className={s.title}>
                     My Skills
