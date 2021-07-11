@@ -6,8 +6,8 @@ function Nav() {
         <div className={n.nav}>
             <Link
                 style={{
-                cursor:'pointer'}
-                }
+                    cursor: 'pointer'
+                }}
                 activeClass={n.active}
                 spy={true}
                 smooth={true}
@@ -17,7 +17,9 @@ function Nav() {
             </Link>
             <Link
                 style={{
-                    cursor:'pointer'}
+                    cursor: 'pointer',
+                    paddingLeft: '15px'
+                }
                 }
                 activeClass={n.active}
                 spy={true}
@@ -29,7 +31,9 @@ function Nav() {
             </Link>
             <Link
                 style={{
-                    cursor:'pointer'}
+                    cursor: 'pointer',
+                    paddingLeft: '15px'
+                }
                 }
                 activeClass={n.active}
                 spy={true}
@@ -41,7 +45,9 @@ function Nav() {
             </Link>
             <Link
                 style={{
-                    cursor:'pointer'}
+                    cursor: 'pointer',
+                    paddingLeft: '15px'
+                }
                 }
                 activeClass={n.active}
                 spy={true}

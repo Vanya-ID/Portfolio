@@ -27,66 +27,78 @@
         display: flex;
         flex-direction: column;
 
-        input, textarea {
-          border: 2px solid #232a31;
-          background: #232a31;
-          color: $primaryColor;
-          margin-top: 5px;
-          font-size: 17px;
-          padding: 5px;
-          outline: none;
-          transition: .2s;
-
-          &:focus {
-            border: 2px solid #136dcc;
-          }
-        }
-
-        .info {
-          display: flex;
-          min-width: 300px;
-          justify-content: space-between;
-
-          input {
-            width: 47%;
-          }
-        }
-
-        textarea {
+        @media screen and (max-width: 350px) {
           min-width: 300px;
         }
+      }
+    }
 
-        .btn {
-          text-align: center;
-          margin: 6% auto;
-          background-color: #20c997;
-          border-color: #20c997;
-          width: 195px;
-          height: 39.5px;
-          box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
-          cursor: pointer;
-          padding: 6px 40px;
-          font-weight: 500;
-          border-width: 2px;
-          transition: all 0.5s ease;
-          border-radius: 20px;
-          color: $primaryColor;
-          line-height: 1.5;
-          font-size: 15px;
+    input, textarea {
+      border: 2px solid #232a31;
+      background: #232a31;
+      color: $primaryColor;
+      margin-top: 5px;
+      font-size: 17px;
+      padding: 5px;
+      outline: none;
+      transition: .2s;
 
-          &:hover {
-            background-color: #198754;
-            border-color: #198754;
-          }
+      &:focus {
+        border: 2px solid #136dcc;
+      }
+    }
 
-          &:disabled {
-            color: #fff;
-            background-color: #0d6efd;
-            border-color: #0d6efd;
-            cursor: default;
-            opacity: .65;
-          }
+    .info {
+      display: flex;
+      min-width: 300px;
+      justify-content: space-between;
+      @media screen and (max-width: 1150px) {
+        flex-direction: column;
+      }
+      input {
+        width: 47%;
+        @media screen and (max-width: 1150px) {
+          width: 100%;
         }
+      }
+    }
+
+    textarea {
+      min-width: 300px;
+      @media screen and (max-width: 1150px) {
+        width: 100%;
+      }
+    }
+
+    .btn {
+      text-align: center;
+      margin: 6% auto;
+      background-color: #20c997;
+      border-color: #20c997;
+      width: 195px;
+      height: 39.5px;
+      box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+      cursor: pointer;
+      padding: 6px 40px;
+      font-weight: 500;
+      border-width: 2px;
+      transition: all 0.5s ease;
+      border-radius: 20px;
+      color: $primaryColor;
+      line-height: 1.5;
+      font-size: 15px;
+
+      &:hover {
+        background-color: #198754;
+        border-color: #198754;
+      }
+
+      &:disabled {
+        color: #fff;
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+        cursor: default;
+        opacity: .65;
       }
     }
   }

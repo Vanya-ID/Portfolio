@@ -13,24 +13,35 @@ function Works() {
                     My Works
                 </h2>
                 <div className={w.works}>
-                    <Project
-                        href={'https://github.com/Vanya-afk/React-ToDo-List'}
-                        title={'ToDo List'}
-                        desc={'bla bla bla'}
-                        img={todo}
-                    />
-                    <Project
-                        href={'https://github.com/Vanya-afk/SocialNetwork'}
-                        title={'Social Network'}
-                        desc={' some text'}
-                        img={social}
-                    />
-                    <Project
+                    <div>
+                        <Project
+                            href={'https://github.com/Vanya-afk/React-ToDo-List'}
+                            title={'ToDo List'}
+                            desc={'bla bla bla'}
+                            img={todo}
+                        />
+                    </div>
+                    <div style={{
+                        paddingTop:'20px'
+                    }}>
+                        <Project
+                            href={'https://github.com/Vanya-afk/SocialNetwork'}
+                            title={'Social Network'}
+                            desc={' some text'}
+                            img={social}
+                        />
+                    </div>
+                    <div style={{
+                        paddingTop:'20px',
+                        paddingBottom: '20px'
+                    }}>
+                        <Project
                         href={'https://github.com/Vanya-afk/Counter'}
                         title={'Counter'}
                         desc={'Откуда-то взялись русские'}
                         img={counter}
                     />
+                    </div>
                 </div>
             </div>
         </div>
