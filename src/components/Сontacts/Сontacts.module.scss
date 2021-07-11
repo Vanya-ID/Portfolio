@@ -28,15 +28,17 @@
         flex-direction: column;
 
         input, textarea {
-          border-color: #232a31;
+          border: 2px solid #232a31;
           background: #232a31;
           color: $primaryColor;
           margin-top: 5px;
           font-size: 17px;
           padding: 5px;
+          outline: none;
+          transition: .2s;
 
           &:focus {
-            border-color: #136dcc;
+            border: 2px solid #136dcc;
           }
         }
 
@@ -44,6 +46,7 @@
           display: flex;
           min-width: 300px;
           justify-content: space-between;
+
           input {
             width: 47%;
           }
@@ -55,7 +58,7 @@
 
         .btn {
           text-align: center;
-          margin: 11px auto;
+          margin: 6% auto;
           background-color: #20c997;
           border-color: #20c997;
           cursor: pointer;
@@ -69,8 +72,8 @@
           font-size: 15px;
 
           &:hover {
-            background-color: #2b9f78;
-            border-color: #2b9f78;
+            background-color: #198754;
+            border-color: #198754;
           }
         }
       }
