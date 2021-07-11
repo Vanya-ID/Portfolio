@@ -8,22 +8,25 @@ import counter from '../../utils/Works/315px-Schoty_abacus_nper.svg.png'
 function Works() {
     return (
         <div className={w.worksBlock}>
-            <div className={w.container}>
+            <div id={'projects'} className={w.container}>
                 <h2 className={w.title}>
                     My Works
                 </h2>
                 <div className={w.works}>
                     <Project
+                        href={'https://github.com/Vanya-afk/React-ToDo-List'}
                         title={'ToDo List'}
                         desc={'bla bla bla'}
                         img={todo}
                     />
                     <Project
+                        href={'https://github.com/Vanya-afk/SocialNetwork'}
                         title={'Social Network'}
                         desc={' some text'}
                         img={social}
                     />
                     <Project
+                        href={'https://github.com/Vanya-afk/Counter'}
                         title={'Counter'}
                         desc={'Откуда-то взялись русские'}
                         img={counter}

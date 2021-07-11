@@ -1,12 +1,44 @@
 import n from './Nav.module.scss'
+import {Link} from "react-scroll";
 
 function Nav() {
     return (
         <div className={n.nav}>
-            <a href="">Главная</a>
-            <a href="">Скиллы</a>
-            <a href="">Работы</a>
-            <a href="">Контакты</a>
+            <Link
+                activeClass={n.active}
+                spy={true}
+                smooth={true}
+                to="main"
+            >
+                Main
+            </Link>
+            <Link
+                activeClass={n.active}
+                spy={true}
+                smooth={true}
+                to="skills"
+                offset={-165}
+            >
+                Skills
+            </Link>
+            <Link
+                activeClass={n.active}
+                spy={true}
+                smooth={true}
+                to="projects"
+                offset={-180}
+            >
+                Projects
+            </Link>
+            <Link
+                activeClass={n.active}
+                spy={true}
+                smooth={true}
+                to="contacts"
+                offset={-180}
+            >
+                Contacts
+            </Link>
         </div>
     );
 }

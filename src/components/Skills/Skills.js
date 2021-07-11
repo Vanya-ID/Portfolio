@@ -3,8 +3,8 @@ import Skill from "./Skill/Skill";
 
 function Skills() {
     return (
-        <div className={s.skillsBlock}>
-            <div className={s.container}>
+        <div  className={s.skillsBlock}>
+            <div id={'skills'} className={s.container}>
                 <h2 className={s.title}>
                     My Skills
                 </h2>
@@ -24,26 +24,26 @@ function Skills() {
                     <Skill
                         progress={'85%'}
                         title={'JavaScript'}
-                           img={'https://img.icons8.com/ios-filled/50/26e07f/javascript.png'}
-                           description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
+                        img={'https://img.icons8.com/ios-filled/50/26e07f/javascript.png'}
+                        description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
                     />
                     <Skill
                         progress={'80%'}
                         title={'TypeScript'}
-                           img={'https://img.icons8.com/ios-filled/50/26e07f/typescript.png'}
-                           description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
+                        img={'https://img.icons8.com/ios-filled/50/26e07f/typescript.png'}
+                        description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
                     />
                     <Skill
                         progress={'70%'}
                         title={'Redux'}
-                           img={'https://img.icons8.com/ios-filled/50/26e07f/redux.png'}
-                           description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
+                        img={'https://img.icons8.com/ios-filled/50/26e07f/redux.png'}
+                        description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
                     />
                     <Skill
                         progress={'60%'}
                         title={'Jest'}
-                           img={'https://img.icons8.com/ios-filled/50/26e07f/test-tube.png'}
-                           description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
+                        img={'https://img.icons8.com/ios-filled/50/26e07f/test-tube.png'}
+                        description={'Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.'}
                     />
                 </div>
             </div>

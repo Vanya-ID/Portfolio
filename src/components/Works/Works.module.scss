@@ -2,16 +2,20 @@
 @import "/src/styles/scss/mixins";
 
 .worksBlock {
-  min-height: 300px;
+  min-height: 600px;
   background-color: $bgSecondColor;
   color: $primaryColor;
 
   .container {
+    min-height: inherit;
+    margin-top: 150px;
     @include container(flex-start, 80%);
 
     .works {
+      margin-top: 8%;
       display: flex;
       justify-content: space-between;
+      align-items: center;
       width: 80%;
       flex-wrap: wrap;
       position: relative;
@@ -21,7 +25,7 @@
     }
 
     .title {
-     @include title
+      @include title
     }
   }
 

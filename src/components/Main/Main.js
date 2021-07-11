@@ -4,7 +4,7 @@ import photo from '../../utils/Ava/milye_tyan_na_avatarku_1_06104421.png'
 function Main() {
     return (
         <div className={m.mainBlock}>
-            <div className={m.container}>
+            <div id={'main'} className={m.container}>
                 <div className={m.text}>
                     <h1>
                         I'm <span style={{color: '#20c997'}}>Ivan Filipchyck,</span> a Web Developer

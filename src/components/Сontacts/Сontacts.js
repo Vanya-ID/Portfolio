@@ -2,8 +2,8 @@ import c from './Сontacts.module.scss'
 
 function Contacts() {
     return (
-        <div className={c.contactBlock}>
-            <div className={c.container}>
+        <div id={'contacts'} className={c.contactBlock}>
+            <div  className={c.container}>
                 <form className={c.form} action="">
                     <h2 className={c.title}>
                         Get in Touch
@@ -13,11 +13,11 @@ function Contacts() {
                             <input type="text" placeholder={'Name'}/>
                             <input type="email" placeholder={'Email'}/>
                         </div>
-                            <textarea name="" id="" cols="30" rows="10"
-                                      placeholder={'Tell me more about your needs...'}/>
-                            <button className={c.btn}>
-                                Send Message
-                            </button>
+                        <textarea name="" id="" cols="30" rows="10"
+                                  placeholder={'Tell me more about your needs...'}/>
+                        <button className={c.btn}>
+                            Send Message
+                        </button>
                     </div>
                 </form>
             </div>

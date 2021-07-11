@@ -18,8 +18,8 @@ function Header() {
             transform: 'translateY(-100%)'
         }
     }
-    if(offset>=115) {
-        style={
+    if (offset >= 115) {
+        style = {
             position: 'fixed',
             backgroundColor: '#111',
             transform: 'translateY(0%)',

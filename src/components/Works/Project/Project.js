@@ -3,7 +3,7 @@ import p from './Project.module.scss'
 function Project(props) {
     return (
         <div className={p.projectContainer}>
-            <a href="">
+            <a href={props.href}>
                 <div className={p.project}>
                     <div className={p.imgParent}>
                         <img className={p.img} src={props.img} alt=""/>
