@@ -9,4 +9,7 @@
   justify-content: center;
   align-items: center;
   position: absolute;
+  @media screen and (max-width: 953px){
+    position: relative;
+  }
 }

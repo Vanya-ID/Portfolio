@@ -1,5 +1,5 @@
 import h from './Header.module.scss'
-import Nav from "../Nav/Nav";
+import Nav from "../a2-Nav/Nav";
 import {useEffect, useState} from "react";
 
 function Header() {

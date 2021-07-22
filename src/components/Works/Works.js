@@ -21,9 +21,7 @@ function Works() {
                             img={todo}
                         />
                     </div>
-                    <div style={{
-                        paddingTop:'20px'
-                    }}>
+                    <div>
                         <Project
                             href={'https://github.com/Vanya-afk/SocialNetwork'}
                             title={'Social Network'}
@@ -31,10 +29,7 @@ function Works() {
                             img={social}
                         />
                     </div>
-                    <div style={{
-                        paddingTop:'20px',
-                        paddingBottom: '20px'
-                    }}>
+                    <div>
                         <Project
                         href={'https://github.com/Vanya-afk/Counter'}
                         title={'Counter'}

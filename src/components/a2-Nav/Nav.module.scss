@@ -15,4 +15,14 @@
    .active{
     color: #20c997;
   }
+  @media screen and (max-width:1406px ){
+    min-width: 612px;
+    justify-content: space-between;
+  }
+  @media screen and (max-width:953px ){
+    min-width: 355px;
+  }
+  @media screen and (max-width:410px ){
+    min-width: 310px;
+  }
 }

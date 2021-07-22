@@ -8,14 +8,15 @@ function Contacts() {
 
     function sendEmail(e) {
         e.preventDefault();
+        if (e.target[0].value === '' || e.target[1].value === '' || e.target[2].value === '') {
+            return
+        }
         setLoading(true)
         emailjs.sendForm('service_wwmcgib', 'template_4rbhnog', e.target, 'user_ZtKUw8fXBLDokeLxLCKOU')
             .then((result) => {
-                console.log(result.text);
                 setLoading(false)
                 e.target.reset()
             }, (error) => {
-                console.log(error.text);
             });
     }
 
